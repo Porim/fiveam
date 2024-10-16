@@ -79,4 +79,9 @@ gem "dockerfile-rails", ">= 1.6", :group => :development
 # Run against this stable release
 group :development, :test do
   gem 'rspec-rails', '~> 7.0.0'
+  gem 'rspec-core', '3.13.1'
+  gem 'rspec-expectations', '3.13.3'
+  gem 'rspec-mocks', '3.13.2'
+  gem 'rspec-support', '3.13.1'
+  gem 'diff-lcs', '1.5.1'
 end
